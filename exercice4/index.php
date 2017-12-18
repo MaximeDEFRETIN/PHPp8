@@ -1,6 +1,4 @@
 <?php
-session_start();
-
 setcookie('name', $_POST['name'], time() + 365 * 24 * 3600, null, null, false, true);
 setcookie('firstName', $_POST['firstName'], time() + 365 * 24 * 3600, null, null, false, true);
 setcookie('age', $_POST['age'], time() + 365 * 24 * 3600, null, null, false, true);
